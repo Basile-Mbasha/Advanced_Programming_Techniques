@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace Assignment2
+namespace DemosAndTests
 {
-    public class Tests
+    public class WorkInProgress
     {
         /*
          * Notes:
@@ -77,45 +77,7 @@ namespace Assignment2
             throw new NotImplementedException(); 
         }
 
-        public static int Factorial(int n)
-        {
-            throw new NotImplementedException();
-        }
 
-        public static void TestFactorial()
-        {
-            var seq = new[] { 1, 1, 2, 6, 24, 120, 720 };
-            for (var i = 0; i < seq.Length; i++)
-            {
-                Assert.AreEqual(seq[i], Factorial(i));
-
-                if (i > 1)
-                {
-                    // This is effectively the definition of Factorial
-                    Assert.AreEqual(Factorial(i - 1) * i, Factorial(i));
-                }
-            }
-        }
-
-        public static int Fibonacci(int n)
-        {
-            throw new NotImplementedException();
-        }
-
-        public static void TestFibonacci()
-        {
-            var seq = new[] { 0, 1, 1, 2, 3, 5, 8, 13, 21 };
-            for (var i=0; i < seq.Length; i++)
-            {
-                Assert.AreEqual(seq[i], Fibonacci(i));
-
-                if (i >= 2)
-                {
-                    // This is effectively the definition of fibonacci
-                    Assert.AreEqual(Fibonacci(i - 2) + Fibonacci(i - 1), Fibonacci(i));
-                }
-            }
-        }
 
         [Test]
         public static void TestReverse()
