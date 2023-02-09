@@ -16,9 +16,4 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Dir\Dir.csproj" />
-    <ProjectReference Include="..\SharedCode\SharedCode.csproj" />
-  </ItemGroup>
-
 </Project>
